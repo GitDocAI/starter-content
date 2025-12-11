@@ -1,0 +1,102 @@
+{
+  "name": "GitDocAI Documentation",
+  "description": "Modern, elegant documentation with gitdocai-clear design and seamless user experience.",
+  "theme": "crystal",
+  "colors": {
+    "dark": "#8b5cf6",
+    "light": "#3b82f6"
+  },
+  "defaultThemeMode": "dark",
+  "logo": {
+    "light": "/assets/light.svg",
+    "dark": "/assets/dark.svg"
+  },
+  "favicon": "/assets/favicon.svg",
+  "background": {
+    "colors": {
+      "dark": "#0a0f1c",
+      "light": "#fafbfc"
+    }
+  },
+  "banner": {
+    "message": "✨ Welcome to GitDocAI Documentation - Modern, Elegant, Fast",
+    "colors": {
+      "light": "#3b82f6",
+      "dark": "#8b5cf6"
+    }
+  },
+  "navbar": [
+    {
+      "type": "link",
+      "label": "Support",
+      "reference": "https://gitdoc.ai"
+    },
+    {
+      "type": "button",
+      "label": "Try GitDocAI",
+      "reference": "https://gitdoc.ai"
+    }
+  ],
+  "footer": [
+    {
+      "type": "github",
+      "reference": "https://github.com/GitDocAI"
+    }
+  ],
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "items": [
+          {
+            "title": "Getting Started",
+            "type": "group",
+            "children": [
+              {
+                "type": "page",
+                "title": "Platform Overview",
+                "page": "/documentation/getting_started/introduction.mdx"
+              },
+              {
+                "type": "page",
+                "title": "Installation Guide",
+                "page": "/documentation/getting_started/installation.mdx"
+              },
+              {
+                "type": "page",
+                "title": "Quick Start",
+                "page": "/documentation/getting_started/quick_start.mdx"
+              },
+              {
+                "type": "page",
+                "title": "All Components",
+                "page": "/documentation/getting_started/all_components.mdx"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "Core Features",
+            "children": [
+              {
+                "type": "page",
+                "title": "Cloud Services",
+                "page": "/documentation/core_features/cloud_services.mdx"
+              },
+              {
+                "type": "page",
+                "title": "Security Configuration",
+                "page": "/documentation/core_features/security_configuration.mdx"
+              },
+              {
+                "type": "page",
+                "title": "Monitoring & Analytics",
+                "page": "/documentation/core_features/monitoring_analytics.mdx"
+              }
+            ]
+          }
+        ]
+      }
+    ]    
+  }
+}
